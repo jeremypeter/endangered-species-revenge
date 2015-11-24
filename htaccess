@@ -1,0 +1,16 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^esrevenge\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.esrevenge\.com$
+RewriteRule ^/?$ "http\:\/\/esrevenge\.org\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^endangeredspeciesrevenge\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.endangeredspeciesrevenge\.org$
+RewriteRule ^/?$ "http\:\/\/esrevenge\.org\/" [R=301,L]
+
+# Use PHP5 Single php.ini as default
+AddHandler application/x-httpd-php5s .php
+RewriteCond %{HTTP_HOST} ^endangeredspeciesrevenge\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.endangeredspeciesrevenge\.com$
+RewriteRule ^/?$ "http\:\/\/esrevenge\.org\/" [R=301,L]
+
