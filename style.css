@@ -4,6 +4,7 @@ body {
   background-image: url("images/background.png");
   background-repeat: repeat-x;
   font-family: 'Georgia', Sans-Serif;
+  margin: 0;
 }
 
 a:link {
@@ -19,25 +20,30 @@ a:active {
 	color: #CC0000;
 }
 
-h1 {
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top:10px;
-	padding-bottom:20px;
-}
-
 p {
 	font-size: 1.5em;
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin: .5em;
 }
 
 h3 {
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
+	text-align: center;
+	margin: 0;
+	/*margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;*/
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .first {
@@ -45,14 +51,31 @@ h3 {
 }
 
 .header {
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer {
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 10px;
+	clear: left;
+}
+
+.contactUs{
+	text-align: center;
+	padding: .5em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+}
+
+.contactUs div{
+	padding: 5px 5px;
+}
+
+fieldset{
+	max-width: 400px;
 }
