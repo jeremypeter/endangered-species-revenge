@@ -44,7 +44,6 @@ img {
 
 .content {
 	max-width: 800px;
-	min-width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
@@ -76,7 +75,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
-	clear: left;
+	clear: both;
 }
 
 .contactUs{
