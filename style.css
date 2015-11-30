@@ -29,6 +29,7 @@ p {
 }
 
 h3 {
+	font-weight: bold;
 	text-align: center;
 	margin: 0;
 	/*margin-left: auto;
@@ -41,9 +42,23 @@ img {
 	height: auto;
 }
 
+.content {
+	max-width: 800px;
+	min-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
 .container {
   padding-left: 2em;
   padding-right: 2em;
+  max-width: 50%;
+  float: left;
+}
+
+.container p {
+	font-weight: bold;
 }
 
 .first {
@@ -66,10 +81,11 @@ img {
 
 .contactUs{
 	text-align: center;
-	padding: .5em;
+	padding: 3em .5em;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 400px;
+	float: right;
 }
 
 .contactUs div{
