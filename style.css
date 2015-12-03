@@ -79,3 +79,22 @@ img {
 fieldset{
 	max-width: 400px;
 }
+
+@media only screen and (max-width: 37.5em) {
+	.container p {
+		font-size: .8em;
+	}
+
+	.contactUs {
+		font-size: .7em;
+	}
+
+	img {
+		max-width: 50%;
+	}
+
+	.footer {
+		font-size: .7em;
+	}
+			
+    }
