@@ -36,6 +36,10 @@ h3 {
 	margin-top: 0;*/
 }
 
+.form-header {
+	font-size: 1.3em;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
