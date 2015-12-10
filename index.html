@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link href="http://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet" type="text/css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 
 <title>Endangered Species Revenge!</title>
 
@@ -16,88 +16,55 @@
 
 <!--Content-->
 
-<div class="header"><img class="logo" src="images/Logo2_forWebSmallerb.gif" width="500" height="364" /></div>
+<div class="header"><img class="logo" src="images/Logo2_forWebSmallerb.gif" width="500" height="364" alt="Endangered Species Revenge logo" /></div>
 
 <div class="container">
   <p class="first"><strong>Laugh, learn about animals, and help our scientists protect them!</strong></p>
-  <p><strong>ESR partners with conservation scientists around the world<br />to raise money for projects which<br />protect endangered animals &amp; help local people economically.<br />
-  <p><em>Please watch for our web launch in 2016!</em></strong></p> 
+  <p><strong>ESR partners with conservation scientists around the world<br />to raise money for projects which<br />protect endangered animals &amp; help local people economically.</strong></p>
+  <p><strong><em>Please watch for our web launch in 2016!</em></strong></p> 
 </div>
 
 
 <!--Mailing List Form-->
 
 <div class="contactUs">
-        <form method="post" class="" name="" action="mailto:info@thepondsedge.com" enctype="text/plain">
+  <form action="./process.php" method="POST">
+    <fieldset>
+      <legend class="form-header">Please join our mauling list<strong>-<br /><em> oops, mailing list!</em></strong></legend>
+        
+        <div class="">
+          <label for="FirstName">*First Name</label>
+          <input type="text" name="firstName" />
+        </div>
+
+        <div class="">
+          <label for="LastName">Last Name</label>
+          <input type="text" name="lastName" />
+        </div>
       
-        <fieldset>
-        <input type="hidden" name="FormID" value="" />
-        <input type="hidden" name="FormDivID" value="" />
-        
-          
-        <legend><h3>Please join our mauling list<strong>-<br /><em> oops, mailing list!</em></strong></h3></legend>
-        
-        
-        
-            <div class="">
-              <label for="FirstName">
-                *First Name
-              </label>
+        <div class="">
+          <label for="Email"> *Email </label>
+          <input type="text" name="email" />
+        </div>
+      
+        <div class="">
+          <label for="ConfirmEmail">  *Confirm Email </label>
+          <input type="text" name="confirmEmail" />
+        </div>
               
-              <input type="text" name="FirstName" value=""  />
-              
-            </div>
-          
-            <div class="">
-              <label for="LastName">
-                *Last Name
-              </label>
-              
-              <input type="text" name="LastName" value=""  />
-              
-            </div>
-          
-     
-          
-            <div class="">
-              <label for="Email"> 
-                *Email
-              </label>
-              <input type="text" name="Email" value=""  />
-            </div>
-          
-              
-              
-              <div class="">
-              <label for="ConfirmEmail"> 
-                  *Confirm Email
-                </label>
-                <input type="text" name="ConfirmEmail" value=""  />
-              </div>
-            
-              <div style="display:none;">Leave this field blank:  <input type="text" name="honeyPot" value="" /></div>
-                    
-                    
-              <div>
-                  <label for="Submit" class="submitLabel">&nbsp;</label>
-                  <button type="submit" value="submit" class="defaultBtn"><span>Submit</span></button>
-              </div> 
-                    
-                
-        </fieldset> 
-        
-      </form>
-    </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>                 
+    </fieldset> 
+  </form>
+</div>
 
 <!--Footer-->
 
 <div class="footer">
-
   <h3>For more information please email us at <a href="mailto:info@revenge.org">info@esrevenge.org</a></h3>
-  <img class="paw" src="images/footerpaw.png" width="66" height="60" />
+  <img class="paw" src="images/footerpaw.png" width="66" height="60" alt="paw-print" />
 </div>
-
-
 
 </body>
 </html>
