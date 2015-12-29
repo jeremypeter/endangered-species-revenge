@@ -80,6 +80,38 @@ fieldset{
 	max-width: 400px;
 }
 
+.hide {
+        display: none !important;
+    }
+    
+.show {
+        display: block !important;
+    }
+    
+.hide + .description {
+        padding-left: 0 !important;
+    }
+
+.ui.header,
+    .ui.button,
+    .ui {
+        font-family: Century Gothic, Helvetica, Arial, Tahoma, FreeSans, sans-serif !important;
+        font-weight: normal;
+    }
+
+  .ui.pink.button {
+        background: #F5E4DE;
+        color: #666;
+        text-transform: uppercase;
+    }
+    
+    .ui.pink.button:hover {
+        background: #F9EDE9;
+        color: #666;
+    }
+
+
+
 @media only screen and (max-width: 37.5em) {
 	.container p {
 		font-size: .8em;
