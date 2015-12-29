@@ -6,25 +6,9 @@
       var sent = false;
       var firstVisit;
       
-      try {          
-
-        if(!sessionStorage.getItem('firstVisit')){
-          sessionStorage.setItem('firstVisit', true);  
-          firstVisit = sessionStorage.getItem('firstVisit');
-        }
-         
-      } catch(e){
-        console.log(e);
-
-        if(!document.cookie.match(/\bfirstVisit\b/g)){
-          document.cookie = 'firstVisit=true';
-          firstVisit = document.cookie.match(/\bfirstVisit\b/g);
-        }
-      }
 
       // alert(document.cookie)
       // alert(firstVisit)
-      if(firstVisit){
 
       $form.form({
         fields: {
@@ -87,7 +71,7 @@
         return;
       }
 
-      $('.column').addClass('hide');
+      $('.contactUS').addClass('hide');
       $('.ui.success.message').removeClass('hide');
    
     }).fail(function(data){
