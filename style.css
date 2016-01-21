@@ -104,6 +104,8 @@ fieldset{
   font-weight: normal;
     }
 
+.ui.header { font-size: 3em; }
+
 .ui.green.button {
   background: #348760;
   border-radius: 2em;
